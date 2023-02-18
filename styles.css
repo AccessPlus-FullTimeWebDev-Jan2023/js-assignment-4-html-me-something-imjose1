@@ -1,1 +1,9 @@
-/* Write your CSS here! */
+body {
+    background-color: #f4f4f4;
+
+}
+
+#carouselSize{
+    margin-left: 10%;
+    margin-right: 10%;
+}
