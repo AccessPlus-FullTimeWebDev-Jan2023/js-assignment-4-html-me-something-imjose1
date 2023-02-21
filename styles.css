@@ -2,8 +2,14 @@ body {
     background-color: #f4f4f4;
 
 }
+main{
+    padding-top: 25px;
+}
 
-#carouselSize{
-    margin-left: 10%;
-    margin-right: 10%;
+#div2 {
+    margin-top: 50px;
+}
+
+#div3{
+    margin-top: 50px; 
 }
