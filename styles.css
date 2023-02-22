@@ -6,7 +6,7 @@ body {
 
 }
 /*---------------------header---------------------*/
-.mainHeading{
+#mainHeading{
 	color: red;
 }
 /*---------------------artcicle sections---------------------*/
