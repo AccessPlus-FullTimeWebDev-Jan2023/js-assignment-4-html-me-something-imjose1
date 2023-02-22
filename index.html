@@ -4,12 +4,16 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>BEST WEBSITE EVER</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Labrada:wght@600&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="./styles.css">
     <script src="java.js"></script>
   </head>
+
   <body>
-   <header>
+   <header class="mainHeading">
    <h1 style="text-align: center;">
       My new Face-Book:   
       <small class="text-muted"> ¡Sé feliz hoy! Aunque únicamente sea por joder a los envidiosos. </small>
@@ -17,30 +21,30 @@
 
     <ul class="nav justify-content-center">
       <li class="nav-item">
-        <a class="nav-link active" aria-current="page" href="#">Family</a>
+        <a class="nav-link active" aria-current="page" href="#Family">Family</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link disabled" href="#">Projects </a>
+        <a class="nav-link active" href="#projects">Projects </a>
       </li>
       <li class="nav-item">
-        <a class="nav-link disabled" href="#">Hobbies</a>
+        <a class="nav-link active" href="#Hobbies">Hobbies</a>
       </li>
     </ul>
    </header>
-
+   <!--------------------------------------------- main section 1 -->
       <main>
          <div class="row">
-            <div class="col-5" >
+            <div class="col-7" >
                <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
                   <div class="carousel-inner">
                      <div class="carousel-item active" >
-                        <img src="https://photos.zillowstatic.com/fp/bad7c35166f546e252755b7d1543f50e-uncropped_scaled_within_1536_1152.webp" class="d-block w-100" alt="..."  height="600" >
+                        <img src="https://photos.zillowstatic.com/fp/bad7c35166f546e252755b7d1543f50e-uncropped_scaled_within_1536_1152.webp" class="d-block w-100" alt="..."  height="400" >
                      </div>
                      <div class="carousel-item" >
-                        <img src="img/profile1.png" class="d-block w-100" alt="..."  height="600">
+                        <img src="img/profile1.png" class="d-block w-100" alt="..."  height="400">
                      </div>
                      <div class="carousel-item">
-                        <img src="img/profile2.png" class="d-block w-100" alt="..."   height="600" >
+                        <img src="img/profile2.png" class="d-block w-100" alt="..."   height="400" >
                      </div>
                   </div>
                   
@@ -55,6 +59,7 @@
                </div>
             </div>
             <div class="col-4">
+               <a name="Family"></a>
                <h2>Family </h2>
                <article>
                   <p>After a long day at work, I like to go home and spent some time with my two wonderful sons and my wife.
@@ -65,13 +70,14 @@
                            My wife and I try to visit local cafes, and diners as much as we can. 
                         I love my mom and my two sister, my older sister got diagnostic my brain cancer and we been struggling for the past years but she
                      one of the stronger person i know and she always push me to move forward in live. </p>
-                           <p><span>La familia primero</span></p>
+                           <p id="testP"><span>&#9829 &#9829 familia primero  &#9833 &#9833 &#9833</span></p>
                </article>
             </div>
-         
       </main>
+      <!---------------------------------------  section 2 -->
          <div class="row" id="div2">
             <div class="col-4">
+               <a name="projects"></a>
                <h2>Projects</h2>
                <article>
                   <p>Well just like everybody else i have some Projects in life, but for  this year im expecting to graduate from launch-code 
@@ -79,22 +85,20 @@
                      it took me around 4 years to finished, but I learn a lot, now im working on my second flip and I'm spectating on have it done in 6 month. 
                      I trying to have plenty money left to keep investing and take the whole family for another trip this year. 
                   </p>
-                  <p><span>Se el cambio que quieres ver en el mundo</span></p>
+                  <p class="funParagraph"><span> &#9818 &#9818 &#9818 Se el cambio que quieres ver en el mundo &#9820</span></p>
                </article>
-               
-               
             </div>
-            <div class="col-5" id="carouselSize">
+            <div class="col-8" id="carouselSize">
                <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
                   <div class="carousel-inner">
                      <div class="carousel-item active" >
-                        <img src="img/profile.jpg" class="d-block w-100" alt="..."  height="600" >
+                        <img src="img/profile.jpg" class="d-block w-100" alt="..."  height="400" >
                      </div>
                      <div class="carousel-item" >
-                        <img src="img/profile1.png" class="d-block w-100" alt="..."  height="600">
+                        <img src="img/profile1.png" class="d-block w-100" alt="..."  height="400">
                      </div>
                      <div class="carousel-item">
-                        <img src="img/profile2.png" class="d-block w-100" alt="..."   height="600" >
+                        <img src="img/profile2.png" class="d-block w-100" alt="..."   height="400" >
                      </div>
                   </div>
                   
@@ -108,21 +112,21 @@
                   </button>
                </div>
             </div>
+            <!---------------------------------------  section 3 -->
             <div class="row"id="div3">
-               <div class="col-5" >
+               <div class="col-6" >
                   <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
                      <div class="carousel-inner">
                         <div class="carousel-item active" >
-                           <img src="img/profile.jpg" class="d-block w-100" alt="..."  height="600" >
+                           <img src="img/profile.jpg" class="d-block w-100" alt="..."  height="400" >
                         </div>
                         <div class="carousel-item" >
-                           <img src="img/profile1.png" class="d-block w-100" alt="..."  height="600">
+                           <img src="img/profile1.png" class="d-block w-100" alt="..."  height="400">
                         </div>
                         <div class="carousel-item">
-                           <img src="img/profile2.png" class="d-block w-100" alt="..."   height="600" >
+                           <img src="img/profile2.png" class="d-block w-100" alt="..."   height="400" >
                         </div>
                      </div>
-                     
                      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                         <span class="visually-hidden">Previous</span>
@@ -133,21 +137,23 @@
                      </button>
                   </div>
                </div>
+
                <div class="col-4">
-                  <h2>Hobbies </h2>
+                  <a name="Hobbies"></a>
+                  <h2 id="hobbiesPtg">Hobbies</h2>
                   <article>
                      <p>I love to go out wine,beer testing also  I love playing video games. played all the call of duties, starcraft, league of legends well 
                         everything related to games. i like building pc im no professional  but i had build 5 so far and fix a lot of them. love soccer and traveling .
                      </p>
-                     <p><span>Si la vida te da la espalda  agarrale las nalgas</span></p>
+                     <p class="funParagraph"><span> &#9760 &#9760 &#9760 Si la vida te da la espalda  agarrale las nalgas</span></p>
                   </article>
-                 
                </div>
-               <footer>
-                  <p> &copy</p>
-               </footer>
-   
-
+            </div>
+         </div>
+             <!-- ---------------------------footer sectio -->
+         <footer >
+            <p> &copy Jose G Hernandez </p>
+         </footer>
 
 
 
