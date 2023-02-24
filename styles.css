@@ -6,8 +6,9 @@ body {
 
 }
 /*---------------------header---------------------*/
-#mainHeading{
+#mainHeading {
 	color: red;
+	background-color: red;
 }
 /*---------------------artcicle sections---------------------*/
 h2 {
